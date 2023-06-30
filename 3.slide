@@ -1,0 +1,108 @@
+var PlayEnabled = true
+
+Learning Go
+1 July 2023
+
+Mohamed Allam
+meda3gm@gmail.com
+
+* Hello Go
+
+What is Go?
+Go is a relatively new programming language, but expentioally popular, particularly among system programmers,
+long running services like web servers and such.
+
+Go is simple, yet powerful, Go uses only 22 reserved keywords. which makes it extremly minimal.
+However Go simple syntax makes it the most starred programming language on Github.
+
+Go is amnog the most started Github repositories [[https://golang.org][30 repositories across Github.]].
+https://www.markdownguide.org/basic-syntax/#links
+https://pkg.go.dev/golang.org/x/tools/present#pkg-index
+https://dannydenenberg.github.io/golang-present-tool
+https://github.com/charly3pins/go-present-example/blob/master/hello-hl-partial.go
+https://charly3pins.dev/blog/level-up-your-preseentations-with-go/
+https://github.com/fzerorubigd/slides
+https://go-talks.appspot.com/github.com/mohamedallam1991/present/slides/.slide#1
+
+* Hello World
+
+Simple hello World in Go.
+
+.play slides/hello.go
+
+* Go ranks
+
+.link https://www.tiobe.com/tiobe-index/go/ accordring to Tiobe, Go has gone widl since it was born
+- Highest Position (since 2009): #10 in Apr 2023
+- Lowest Position (since 2009): #122 in May 2015
+- Language of the Year: 2009, 2016
+.image /images/tiobe.png 300 900
+
+* Text formatting
+
+.image /numbering.png 500 1000
+
+normal vs `highlighted`
+*bold*
+_italic_
+*multiple*bold*text*
+_multiple_italic_text_
+
+Grocery list for the gopher:
+
+- go routines
+- garbage collector
+- Rust
+
+* Text formatting
+
+Surface
+
+** Subsection
+
+The Gopher(1) is diving the subsection.
+
+*** Sub-subsection
+
+Another Gopher(2) is diving more into the sub-subsection!
+
+**** Sub-subsection
+
+The most brave Gopher(3) is diving deeper into the sub-sub-subsection!
+
+* Images
+
+.image /images/gopher.jpeg 200 200
+.image /images/gopher.jpeg _ 300
+
+* Links
+
+.link https://charly3pins.dev charly3pins website
+.link https://charly3pins.dev
+
+* Code
+
+Normal
+.code slides/hello.go
+
+Highlighted code
+.code slides/hello-h1.go
+
+* Code
+
+Partial code
+.code slides/partial.go /START OMIT/,/END OMIT/
+
+* Playable code
+
+.play slides/hello.go
+
+* Presenter notes
+
+The gophers like to eat a lot.
+
+: they eat more than half their body weight in food each day
+
+They eat basically plants.
+
+: typically gnaws the roots of a plant just beneath the soil, so the damage isn’t seen
